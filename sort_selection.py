@@ -1,4 +1,4 @@
-def custom_selection_sort(list):
+def sort_selection(list):
     length = len(list)
     for i in range(length):
         min_idx = i
@@ -9,5 +9,5 @@ def custom_selection_sort(list):
     return list
 
 original_list = [55, 89, 63, 7, 47]
-sorted_list = custom_selection_sort(original_list)
+sorted_list = sort_selection(original_list)
 print("Sorted list:", sorted_list)
